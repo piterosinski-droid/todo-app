@@ -8,6 +8,19 @@ Konsolowa aplikacja TODO w Javie.
 - metoda statyczna,
 - własny wyjątek,
 - zapis/odczyt do pliku.
+## Wymagania funkcjonalne
+
+Aplikacja konsolowa TODO realizuje następujące funkcjonalności:
+
+1. Dodanie nowego zadania (SimpleTask) do listy zadań.
+2. Walidacja danych zadania podczas dodawania (np. tytuł, priorytet, kategoria).
+3. Pobranie listy wszystkich zadań.
+4. Wyszukanie zadania po identyfikatorze (id).
+5. Oznaczenie zadania jako DONE na podstawie id..
+6. Zapis zadań do pliku tekstowego (persistencja).
+7. Odczyt zadań z pliku tekstowego (persistencja).
+8. Obsługa sytuacji błędnych (np. brak zadania o danym id – własny wyjątek).
+
 
 ## Wymagania funkcjonalne
 - tworzenie zadań (Task/SimpleTask),
